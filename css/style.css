@@ -1,0 +1,143 @@
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*---------------
+        common styles
+/* ------------------  */
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+.section-title {
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.container {
+    width: 1047px;
+    color: #AAAAAA;
+
+}
+
+
+/*---------------------
+   -----Top styles-----
+------------------ */
+
+.influencer-info {
+    display: flex;
+    /* margin-left: 120px; */
+
+
+}
+
+.influencer-journey {
+    border: 1px solid gray;
+    width: 600px;
+    height: 270px;
+
+    /* margin-right: 115px; */
+}
+
+.influencer-detail {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.prebook a {
+    text-decoration: none;
+    border: 1px solid #E02C6D;
+    border-radius: 41px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+.instrument {
+    /* margin-top: 20px; */
+    border: 1px solid gray;
+}
+
+.instrument .camera {
+    position: absolute;
+    z-index: 2;
+
+}
+
+.instrument .back-ground {
+    position: absolute;
+    z-index: 1;
+}
+
+/*-------------------
+--------- Collections style 
+--------------------------------- */
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.collection {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.collection .collection-thumbnail img {
+    width: 300px;
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.collection-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.fa-star.filled {
+    font-size: 12px;
+    color: #FB8200;
+
+}
+
+.ratting {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.collection-review {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
