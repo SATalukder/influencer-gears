@@ -11,6 +11,10 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 1440px;
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
 }
 
 main {
@@ -33,6 +37,11 @@ main {
     width: 1047px;
     color: #AAAAAA;
 
+}
+
+footer {
+    width: 1440px;
+    background-color: #0A0826;
 }
 
 
@@ -169,6 +178,7 @@ span .fa-arrow-right {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .product-thumbnail img {
@@ -205,6 +215,7 @@ span .fa-arrow-right {
     font-weight: 700;
     font-size: 16px;
     padding: 10px 24px;
+    border-radius: 5px;
 
 }
 
@@ -215,4 +226,47 @@ span .fa-arrow-right {
 
 .join.fa-arrow-right {
     margin-left: 8px;
+}
+
+/*--------------------
+------------ footer styles--------
+---------------------------  */
+.title {
+    text-align: center;
+    padding: 50px 0px;
+    /* padding-bottom: 50px; */
+
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.copy-right {
+    color: #D9DBE1;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.fa-brands {
+    margin-right: 16px;
+}
+
+.fa-twitter {
+    color: #FFFFFF;
+
+}
+
+.fa-facebook {
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    color: #FFFFFF;
+}
+
+.fa-github {
+    color: #FFFFFF;
 }
