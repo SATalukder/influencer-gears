@@ -11,10 +11,10 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 1440px;
     background-color: #FFFFFF;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     border-radius: 5px;
-    align-items: center;
+    align-items: center; */
 }
 
 main {
@@ -40,7 +40,7 @@ main {
 }
 
 footer {
-    width: 1440px;
+    /* width: 1440px; */
     background-color: #0A0826;
 }
 
