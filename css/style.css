@@ -152,8 +152,11 @@ nav {
          logos style -----------
 -----------         -------------------- */
 .logos {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    border-image-slice: 1;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
     padding-top: 42px;
     padding-bottom: 42px;
 }
